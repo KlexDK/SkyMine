@@ -1,0 +1,28 @@
+mines:
+  diamond:
+    item: DIAMOND_ORE
+    item-name: "&bDiamond Mine Pickaxe"
+    item-lore:
+      - "&7Use this pickaxe to place a"
+      - "&7Diamond Mine!"
+    content:
+      - DIAMOND_ORE
+      - EMERALD_ORE
+    bedrock:
+      - top
+      - bottom
+      - sides
+    radius: 2
+    height: 3
+    reset-time: 15 #15 MIN
+    message:
+      place: "&aDu har placeret en Emerald Mine!"
+      break: "&cDu kan ikke bryde denne mine."
+
+
+holograms:
+  diamond:
+    text:
+      - "&7Use this pickaxe to place a"
+      - "&7Diamond Mine!"
+    offsetY: 1.0

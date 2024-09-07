@@ -1,0 +1,23 @@
+menu:
+  title: "Mine Management"
+  items:
+    REMOVE_MINE:
+      id: 357 # Item ID for the 'remove' option (e.g., an apple)
+      name: "§cRemove Mine"
+      lore:
+        - "§7Click to remove your mine."
+    ADD_PLAYER:
+      id: 351 # Item ID for the 'add player' option (e.g., a book)
+      name: "§bAdd Player"
+      lore:
+        - "§7Click to add a player to your mine."
+    TOGGLE_PUBLIC:
+      id: 298 # Item ID for the 'toggle public' option (e.g., a golden helmet)
+      name: "§eToggle Public"
+      lore:
+        - "§7Click to toggle the mine's public status."
+    TOGGLE_PRIVATE:
+      id: 299 # Item ID for the 'toggle private' option (e.g., a diamond helmet)
+      name: "§eToggle Private"
+      lore:
+        - "§7Click to toggle the mine's private status."

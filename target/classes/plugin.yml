@@ -1,0 +1,16 @@
+name: AlphaMine
+version: 1.0
+main: dk.alpha.Main
+api-version: 1.8
+description: Alpha Mine System.
+softdepend: [HolographicDisplays]
+commands:
+  mine:
+    description: Håndterer mine kommandoer
+    usage: /<command> [list|give|remove]
+    subcommands:
+      reload:
+        description: Reloads the plugin configuration and player data
+        usage: /mine reload
+        permission: plugin.reload
+        permission-message: You do not have permission to execute this command.
